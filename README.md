@@ -39,14 +39,10 @@ Después de haber instalado las dependencias, sigue los siguientes pasos para ej
     npm run dev
     ```
 
-2. Abre tu navegador web y ve a la siguiente dirección:
+2. Abre tu navegador web y ve a la dirección que aparece en la terminal, deberia ser algo como:
     ```
-    http://localhost:3000
+    http://localhost:5173/
     ```
-### Funcionamiento del componente `Boton`
-
-El componente `Boton` es una función de React que devuelve un botón. Este botón tiene un estado `msj` que se inicializa como una cadena vacía utilizando el hook `useState`. Cuando el botón es clickeado, se dispara la función `handleClick`, que actualiza el estado `msj` con el valor "from changed state". Esto provoca una re-renderización del componente y muestra el valor actualizado del estado `msj` en pantalla.
-
 ### Funcionamiento del componente `Titulo` y `Boton`
 
 * El componente `Titulo` recibe la prop `textoTitulo`. 
