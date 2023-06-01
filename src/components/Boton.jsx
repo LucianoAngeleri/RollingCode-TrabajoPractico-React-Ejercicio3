@@ -1,8 +1,6 @@
-const Boton = () => {
+const Boton = ( {onClick} ) => {
     return (
-        <div class="d-grid gap-2 p-5">
-          <button type="button" class="btn btn-primary">Hacer Click!</button>
-        </div>
+        <button type="button" class="btn btn-primary" onClick={onClick}>Hacer Click!</button>
     );
 };
 
